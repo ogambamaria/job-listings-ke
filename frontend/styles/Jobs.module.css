@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    padding-top: 5rem; /* Add top padding to avoid content overlap */
+    background-color: #f7f9fc;
+}
+
+.jobsContent {
+    flex: 0.7;
+    padding-left: 2rem;
+}
+
+.searchBar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.searchButton {
+    height: 100%;
+    padding: 0 2rem;
+}

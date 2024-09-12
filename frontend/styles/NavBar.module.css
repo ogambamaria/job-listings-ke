@@ -1,0 +1,45 @@
+/* Navbar.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a;
+    padding: 1rem 2rem;
+    color: white;
+    width: 100vw;  /* Full viewport width */
+    position: fixed;  /* Keep it fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navLink:hover {
+    color: #3b82f6; /* Light blue hover */
+}
+
+.signIn {
+    background-color: white;
+    color: #1e3a8a;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signIn:hover {
+    background-color: #3b82f6; /* Light blue hover */
+    color: white;
+}

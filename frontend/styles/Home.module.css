@@ -1,0 +1,75 @@
+/* Home.module.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5rem;
+    background-color: #f9f9f9;
+}
+
+.leftSection {
+    flex: 1;
+}
+
+.rightSection {
+    flex: 1;
+    text-align: right;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #334155;
+}
+
+.description {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.buttonPrimary {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.buttonPrimary:hover {
+    background-color: #333;
+}
+
+.buttonSecondary {
+    background-color: transparent;
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 1.2rem;
+}

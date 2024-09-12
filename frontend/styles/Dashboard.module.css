@@ -1,0 +1,57 @@
+/* Dashboard.module.css */
+
+.dashboard {
+    padding: 5rem;
+    background-color: #f5f6fa;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Statistics Cards */
+.statsCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #334155;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: #3b82f6;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Charts Section */
+.chartsContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+.lineChart, .doughnutChart {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.lineChart h3, .doughnutChart h3 {
+    color: #334155;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
